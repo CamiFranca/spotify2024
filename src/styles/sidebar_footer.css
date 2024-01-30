@@ -1,0 +1,226 @@
+body {
+    background-color: #000;
+    font-family: var(--font)
+}
+
+h1 {
+    color: white;
+}
+
+.saidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.saidebar_navigaton {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.saidebar_navigaton .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.saidebar_navigaton .logo img {
+    width: 80px;
+
+
+}
+
+.saidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.saidebar nav ul li {
+    padding: 10px 0;
+}
+
+.saidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  
+}
+
+.biblioteca {
+    background-color: #121212;
+    position: fixed;
+    top: 190px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 350px;
+
+}
+
+.biblioteca .biblioteca_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 0 24px;
+
+
+}
+
+.biblioteca .biblioteca_title .button_title {
+    display: flex;
+    border-style: none;
+    color: #b3b3b3;
+    font-size: 14px;
+  
+    font-weight: 700;
+    background-color: transparent;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+
+.biblioteca .biblioteca_title .button_plus {
+    border-style: none;
+    background-color: transparent;
+    padding: 12px;
+}
+
+.biblioteca .biblioteca_title .fa-book {
+    margin-right: 16px;
+}
+
+.biblioteca .biblioteca_title .fa-plus {
+
+    color: #b3b3b3;
+
+}
+
+.biblioteca .playlist {
+    background-color: #242424;
+    margin: 10px 10px 22px 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: #b3b3b3;
+
+}
+
+.biblioteca .playlist .biblioteca_creator {
+    padding-bottom: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.biblioteca .playlist .biblioteca_help {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFF;
+    padding-bottom: 14px;
+  
+}
+
+.biblioteca .playlist_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+    color: #000;
+    background-color: #FFF;
+    font-size: 10px;
+
+    font-weight: 700;
+    margin-bottom: 12px;
+    width: 113px;
+    margin-top: 12px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.biblioteca .cookies {
+    margin: 25px 20px;
+    font-size: 10px;
+
+    font-weight: 500;
+    color: #b3b3b3;
+}
+
+.biblioteca .cookies a {
+   text-decoration: none;
+   color: #b3b3b3;
+   font-size: 10px;
+   font-weight: 500;
+
+}
+.biblioteca .cookies a:hover{
+    text-decoration: underline;
+}
+
+.button_languages {
+    
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
